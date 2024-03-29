@@ -1,0 +1,270 @@
+nav a{
+    color: rgb(228, 208, 208);
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: small;
+}
+nav{
+    padding: 1rem;
+    padding-left: 100px;
+    padding-right: 100px; 
+    background-color: rgb(41, 38, 38);  
+    border: solid;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    gap: 3%;
+}
+#designs{
+    background-image: url(/images/LIVING-ROOM---2.jpg);
+    height: 600px;
+    width: 1000px;
+    text-align: center;
+    color: white;
+    margin-left: 400px;
+    
+}
+#Appeal{
+    
+}
+#many{
+    display: flex;
+    gap: 5%;
+    text-align: center;
+    margin-left: 15%;
+}
+#choose{
+    text-align: center;
+}
+#images{
+    display: flex;
+    margin-left: 15%;
+}
+#master{
+    display: flex;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    gap :3%;
+}
+#room{
+    color: rgb(107, 28, 14);
+}
+#img{
+    height: 48.6vh;
+}
+button{
+    background-color: rgb(73, 37, 4);
+    color: white;
+    border-radius: 5px;
+}
+#customer{
+    display: flex;
+    gap: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#products{
+    text-align: center;
+}
+#Testimonials{
+    background-color: rgb(236, 190, 216);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#say{
+    border: 2px solid white;
+    background-color: white;
+}
+#best{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#blogs{
+    text-align: center;
+}
+#prestige{
+    display: flex;
+    background-color: rgb(36, 36, 41);
+    color: white;
+    padding-left: 6%;
+    margin-top: 10px;
+    margin-left: 140px;
+    width: 1400px;
+}
+#new{
+    display: flex;
+    gap: 6%;
+    margin-left: 690px;
+    font-size: 20px;
+}
+#h2{
+    padding-left: 10%;
+}
+#butt{
+    margin-left: 15%;
+}
+@media screen and (min-width:280px)and (max-width:430px) {
+    #prestige{
+        display: grid;
+        width: 300px;
+        font-size: 15px;
+        padding-left: 3%;
+        margin-left: 0px;
+        padding-left: 100px;
+
+    }
+    #new{
+        display: grid;
+        gap: 3%;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    #best{
+        display: grid;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #Testimonials{
+        background-color: rgb(236, 190, 216);
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 370px;
+
+    }
+    #customer{
+        display: grid;
+        gap: 2%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #master{
+        display: grid;
+        margin-left: 15%;
+        margin-bottom: 10%;
+        gap :2%;
+        font-size: 20px;
+    }
+    #images{
+        display: grid;
+        margin-left: 15%;
+    }
+    #designs{
+        background-image: url(/images/LIVING-ROOM---2.jpg);
+        height: 600px;
+        width: 410px;
+        text-align: center;
+        color: white;
+        margin-left: 00px;
+        
+    }
+    nav{
+        padding: 0rem;
+        padding-left: 0px;
+        padding-right: 00px; 
+        background-color: rgb(41, 38, 38);  
+        border: solid;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+
+    }
+    #living{
+        width: 340px;
+    }
+    #say{
+        border: 1px solid white;
+        background-color: white;
+    }
+    #ss{
+        width: 140px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media  screen and (min-width: 431px) and (max-width:600px) {
+    #prestige{
+        display: grid;
+        width: 300px;
+        font-size: 15px;
+        padding-left: 3%;
+        margin-left: 0px;
+        padding-left: 100px;
+
+    }
+    #new{
+        display: grid;
+        gap: 3%;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    #best{
+        display: grid;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #Testimonials{
+        background-color: rgb(236, 190, 216);
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 370px;
+
+    }
+    #customer{
+        display: grid;
+        gap: 2%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #master{
+        display: grid;
+        margin-left: 15%;
+        margin-bottom: 10%;
+        gap :2%;
+        font-size: 20px;
+    }
+    #images{
+        display: grid;
+        margin-left: 15%;
+    }
+    #designs{
+        background-image: url(/images/LIVING-ROOM---2.jpg);
+        height: 600px;
+        width: 410px;
+        text-align: center;
+        color: white;
+        margin-left: 00px;
+        
+    }
+    nav{
+        padding: 0rem;
+        padding-left: 0px;
+        padding-right: 00px; 
+        background-color: rgb(41, 38, 38);  
+        border: solid;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+
+    }
+    #living{
+        width: 340px;
+    }
+    #say{
+        border: 1px solid white;
+        background-color: white;
+    }
+    #ss{
+        width: 140px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
